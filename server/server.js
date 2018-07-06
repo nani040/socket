@@ -11,7 +11,7 @@ var server = http.createServer(app);
 var io = socketIO(server);
 
 app.use(express.static(publicPath));
-
+console.log("ADDED CODE BY ROJA --TESTING")
 io.on('connection', (socket) => {
   console.log('New user connected');
 
